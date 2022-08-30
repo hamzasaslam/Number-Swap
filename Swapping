@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, b;
+    cout << "\t\tPlease enter 2 numbers:\n";
+    cout << "\t\t";
+    cin >> a;
+    cout << "\t\t";
+    cin >> b;
+    cout << "\t\tBefore swapping:\n";
+    cout << "\t\t";
+    cout << a << b;
+    int x = a;
+    a = b;
+    b = x;
+    cout << "\nAfter Swapping:\n";
+    cout << "\t\t";
+    cout << "\n";
+    cout << "\t\t" << a << b;
+    return 0;
+}
